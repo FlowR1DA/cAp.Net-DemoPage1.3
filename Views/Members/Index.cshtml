@@ -5,3 +5,30 @@
 }
 
 <h1>Konten</h1>
+
+<table>
+    <thead>
+    <th>Nickname</th>
+    <th>Vorname</th>
+    <th>Nachname</th>
+    <th>Geburtsdatum</th>
+    <th>Adresse</th>
+    <th>PLZ</th>
+    <th>Stadt</th></thead>
+    <tbody>
+        <tr>
+            <td>[nick]</td>
+            <td>[Vorname]</td>
+            <td>[nachname]</td>
+            <td>[Geburtsdatum]</td>
+            <td>[adresse]</td>
+            <td>[PLZ]</td>
+            <td>[Stadt]</td>
+            <td><a href="edit_member?id=[id]">Editieren</a></td>
+            <td><a href="remove_member?id=[id]">Löschen</a></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr><td colspan="7">[count] Benutzer gefunden</td></tr>
+    </tfoot>
+</table>
