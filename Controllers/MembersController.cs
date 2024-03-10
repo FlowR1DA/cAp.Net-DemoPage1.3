@@ -2,7 +2,7 @@
 
 namespace cApNetDemoPage.Controllers
 {
-    public class MemberController : Controller
+    public class MembersController : Controller
     {
         public IActionResult Index()
         {
