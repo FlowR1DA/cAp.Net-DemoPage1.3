@@ -4,31 +4,52 @@
 @{
 }
 
-<h1>Konten</h1>
-
-<table>
+<div class="table-responsive-lg">
+<table class="table table-dark">
     <thead>
-    <th>Nickname</th>
-    <th>Vorname</th>
-    <th>Nachname</th>
-    <th>Geburtsdatum</th>
-    <th>Adresse</th>
-    <th>PLZ</th>
-    <th>Stadt</th></thead>
-    <tbody>
         <tr>
-            <td>[nick]</td>
-            <td>[Vorname]</td>
-            <td>[nachname]</td>
-            <td>[Geburtsdatum]</td>
-            <td>[adresse]</td>
-            <td>[PLZ]</td>
-            <td>[Stadt]</td>
-            <td><a href="edit_member?id=[id]">Editieren</a></td>
-            <td><a href="remove_member?id=[id]">Löschen</a></td>
+            <th scope="col">Vorname</th>
+            <th scope="col">Nachname</th>
+            <th scope="col">Benutzername</th>
+            <th scope="col"><nobr>Email Adresse</nobr></th>
+            <th scope="col">Geburtsdatum</th>
+            <th scope="col">Telefonnummer</th>
+            <th scope="col">Adresse</th>
+            <th scope="col">PLZ</th>
+            <th scope="col">Ort</th>
+            <th scope="col">Land</th>
+            <th scope="col">Funktion</th>
+        </tr>
+    </thead>
+    
+    <tbody class="table-light table-striped table-hover">
+        <tr>
+            <td scope="row">Konto.Vorname</td>
+            <td>Konto.Nachname</td>
+            <td>Konto.Benutzername</td>
+            <td>Konto.Email</td>
+            <td>Konto.Geburtsdatum</td>
+            <td>Konto.Telefonnummer</td>
+            <td>Konto.Adresse</td>
+            <td>Konto.PLZ</td>
+            <td>Konto.Ort</td>
+            <td>Konto.Land</td>
+            <td>Konto.Funktion</td>
+        </tr>
+        <tr>
+            <td scope="row">Konto.Vorname</td>
+            <td>Konto.Nachname</td>
+            <td>Konto.Benutzername</td>
+            <td>Konto.Email</td>
+            <td>Konto.Geburtsdatum</td>
+            <td>Konto.Telefonnummer</td>
+            <td>Konto.Adresse</td>
+            <td>Konto.PLZ</td>
+            <td>Konto.Ort</td>
+            <td>Konto.Land</td>
+            <td>Konto.Funktion</td>
         </tr>
     </tbody>
-    <tfoot>
-        <tr><td colspan="7">[count] Benutzer gefunden</td></tr>
-    </tfoot>
+
 </table>
+</div>

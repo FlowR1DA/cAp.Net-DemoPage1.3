@@ -36,4 +36,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="templates\Views\Members\" />
+  </ItemGroup>
+
 </Project>
