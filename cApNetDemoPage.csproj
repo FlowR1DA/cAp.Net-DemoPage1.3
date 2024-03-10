@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -8,6 +8,21 @@
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\KontenController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Konten.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\NewFile.txt" />
+    <None Remove="sql objects\NewFile.txt" />
+    <None Remove="Views\Home\NewFile.txt" />
+    <None Remove="Views\Pictures\NewFile.txt" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.2" />

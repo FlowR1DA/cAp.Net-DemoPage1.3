@@ -24,7 +24,7 @@ namespace cApNetDemoPage.Data.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(120)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()

@@ -41,6 +41,17 @@ body {
     cursor: pointer;
 }
 
+/* Enter Button */
+
+.button-container  {
+    position: relative;
+    margin: 0 auto;
+}
+
+.button-box {
+    z-index: 1;
+}
+
 /* dark mode */
 
 /* social icons */
