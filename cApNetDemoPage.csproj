@@ -21,7 +21,12 @@
     <None Remove="Controllers\NewFile.txt" />
     <None Remove="sql objects\NewFile.txt" />
     <None Remove="Views\Home\NewFile.txt" />
+    <None Remove="Views\Pictures\index.cshtml.backup" />
     <None Remove="Views\Pictures\NewFile.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Pictures\index.cshtml.backup" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +42,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="templates\Pictures\" />
     <Folder Include="templates\Views\Members\" />
   </ItemGroup>
 
