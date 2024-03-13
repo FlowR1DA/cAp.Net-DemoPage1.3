@@ -23,10 +23,12 @@
     <None Remove="Views\Home\NewFile.txt" />
     <None Remove="Views\Pictures\index.cshtml.backup" />
     <None Remove="Views\Pictures\NewFile.txt" />
+    <None Remove="Views\Shared\_Layout.cshtml.bak" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Views\Pictures\index.cshtml.backup" />
+    <Content Include="Views\Shared\_Layout.cshtml.bak" />
   </ItemGroup>
 
   <ItemGroup>

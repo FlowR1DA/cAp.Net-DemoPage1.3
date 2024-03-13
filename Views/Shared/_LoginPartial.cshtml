@@ -2,18 +2,18 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<ul class="navbar-nav bg-dark rounded shadow">
+<ul class="navbar-nav">
 
 @if (SignInManager.IsSignedIn(User))
 
 {
     <li class="nav-item">
-        <a  class="nav-link text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hallo&nbsp; <strong>@User.Identity?.Name</strong></a>
-    </li>
-
+            <a class="nav-link btn btn-lg bg-black" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" style="color: cornflowerblue;line-height:24px;">Hallo&nbsp; <strong>@User.Identity?.Name</strong></a>
+        </li>
+       
     <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-white">Abmelden</button>
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            &nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-sm bg-danger" style="color: black;font-size:20px;line-height:24px;padding-top:6px;padding-bottom:7px;"><i class="fa-solid fa-power-off" style="font-size:20px;"></i>&nbsp;<span style="font-size:14px;line-height:24px;">Abmelden</span></button>
         </form>
     </li>
 }
@@ -26,7 +26,7 @@ else
     </li>
 
     <li class="nav-item">
-        <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login"><strong>Anmelden</strong></a>
+         <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login"><strong>Anmelden</strong></a>
     </li>
 }
 </ul>
