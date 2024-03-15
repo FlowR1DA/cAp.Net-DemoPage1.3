@@ -36,7 +36,7 @@
                     <ul class="navbar-nav flex-grow-1 btn-sm border justify-content-center btn-light rounded shadow disabled">
 
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-warning rounded" asp-area="" asp-controller="Pictures" asp-action="Index"><h3>Fotogalerie</h3></a>
+                            <a class="nav-link btn rounded" style="color:cornflowerblue" asp-area="" asp-controller="Pictures" asp-action="Index"><h3>Fotogalerie</h3></a>
                         </li>
                         &nbsp;&nbsp;
                         <li class="nav-item">
@@ -44,7 +44,7 @@
                         </li>
                         &nbsp;&nbsp;
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-warning rounded" asp-area="" asp-controller="Home" asp-action="Privacy"><h3>Datenschutz</h3></a>
+                            <a class="nav-link rounded" asp-area="" asp-controller="Home" asp-action="Privacy"><h3>Datenschutz</h3></a>
                         </li>
                     </ul>
                          &nbsp;&nbsp;
